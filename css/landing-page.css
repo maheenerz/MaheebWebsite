@@ -347,6 +347,26 @@ p.copyright {
   }
 }
 .tech-section,
-.sample-section" {
+.sample-section {
     color: #565758;
+}
+@media(max-width: 767px){
+  .techContainer{
+      grid-template-columns: auto auto;
+  }
+  .notebookContainer {
+    top: 50px;
+  }
+  .tech-section h1#techSection {
+      font-size: 26px;
+  }
+  p.lead{
+    overflow: scroll !important;
+  }
+  .resume{
+    display: none;
+  }
+  .map img {
+    max-width: 300px;
+  }
 }
