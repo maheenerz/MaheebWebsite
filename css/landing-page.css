@@ -57,9 +57,8 @@ body, h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 999;
   top:170px;
-    margin-right: 175px;
-    color: #565758;
-    text-decoration: underline;
+  margin-right: 175px;
+  color: #565758;
 }
 .notebookContainer h1:hover,
 .notebookContainer li:hover{
@@ -70,7 +69,8 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 .notebookContainer li{
   list-style:none;
-  color:#565758
+  color:#565758;
+  text-decoration: underline;
 }
 
 
