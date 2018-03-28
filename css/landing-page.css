@@ -14,7 +14,7 @@ body, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 #mainContainer{
-	 transition: 1s filter ease-in-out;
+   transition: 1s filter ease-in-out;
 
 }
 #mainContainer.blur {
@@ -27,7 +27,7 @@ body, h1, h2, h3, h4, h5, h6 {
     transition: opacity .5s ease-in-out;
 }
 .glasses {
-	display: none;
+  display: none;
     position: absolute;
     z-index: 9;
     margin: 0 auto;
@@ -53,24 +53,24 @@ body, h1, h2, h3, h4, h5, h6 {
   left: 45px;
 }
 .notebookContainer{
-	float: right;
-	position: relative;
-	z-index: 999;
-	top:170px;
+  float: right;
+  position: relative;
+  z-index: 999;
+  top:170px;
     margin-right: 175px;
     color: #565758;
     text-decoration: underline;
 }
 .notebookContainer h1:hover,
 .notebookContainer li:hover{
-color:#740f05
+  color:#e9cdca;
 }
 .notebookContainer ul{
-	text-align: left;
+  text-align: left;
 }
 .notebookContainer li{
-	list-style:none;
-	color:#565758
+  list-style:none;
+  color:#565758
 }
 
 
@@ -146,12 +146,12 @@ color:#740f05
   animation: type2 6s steps(60, end);
 }
 .section-heading {
-	font-size:55px;
-	text-align: center;
+  font-size:55px;
+  text-align: center;
 }
 .lead{
-	text-align: center;
-	font-size: 24px;
+  text-align: center;
+  font-size: 24px;
 
 }
 
@@ -192,7 +192,7 @@ section.content-section-b {
     background: #e9cdca;
 }
 .content-section-b h1{
-	text-align: center;
+  text-align: center;
     color: #fff;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 3em;
@@ -202,7 +202,7 @@ section.content-section-b {
     padding: 20px 0 200px 0;
 }
 .tab-container ul{
-	padding-left: 0;
+  padding-left: 0;
     list-style: none;
     padding: 10px;
 }
@@ -273,8 +273,76 @@ p.copyright {
 /* Puzzle Game */
 
 #puzzlePieces{
-	width: 200px;
+  width: 200px;
     padding: 20px 0 260px 0;
     background: #fff;
     border: 2px solid;
+}
+/* contact sections */
+.contact-section{
+  background:#e9cdca;
+  padding: 40px 0;
+  text-align: center;
+}
+.contactLeft{
+  float: left;
+  text-align:center;
+  text-transform: uppercase;
+  padding-top: 75px;
+  color:#fff;
+}
+.map h3{
+  text-align: center;
+  color:#fff;
+}
+.contactRight{
+    width: 50%;
+    float: right;
+}
+#contactMe h1{
+  color: #fff;
+}
+@media(max-width: 1025px){
+  .contactRight{
+    width: 100%;
+  }
+}
+@media(max-width: 1025px){
+  .contactLeft{
+    width: 100%;
+  }
+}
+@media(max-width: 1025px){
+  .notebookContainer{
+    margin-right: 0 !important;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.76);
+    color: #fff;
+  }
+}
+@media(max-width: 1025px){
+  .notebookContainer ul{
+    text-align: center;
+  }
+}
+@media(max-width: 1025px){
+  .notebookContainer li{
+   color: #fff;
+  }
+}
+
+@media(max-width: 1375px){
+  .notebookContainer{
+    margin-right: 125px;
+  }
+}
+@media(max-width: 1265px){
+  .notebookContainer{
+    margin-right: 90px;
+  }
+}
+@media(max-width: 1165px){
+  .notebookContainer{
+    margin-right: 20px;
+  }
 }
