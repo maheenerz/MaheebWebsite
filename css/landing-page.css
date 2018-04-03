@@ -141,8 +141,8 @@ body, h1, h2, h3, h4, h5, h6 {
   width: 100%;
   animation: type 4s steps(60, end); 
 }
-.section-heading p{
-  text-align: center
+.sample-section p{
+  text-align: center;
 }
 
 .startType .section-heading,.startType .lead:nth-child(2){
